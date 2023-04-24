@@ -2,11 +2,45 @@
 //
 
 #include <iostream>
+#include <SFML/Graphics.hpp>
+#include "Framework.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+   
+    App* BATTLENAVALMUTLI = new App();
+
+    SetApp(BATTLENAVALMUTLI);
+
+    BATTLENAVALMUTLI->Init();
+    BATTLENAVALMUTLI->Start();
+    
+
+
+    return 0;
+    /// Créer la fenêtre
+    //sf::RenderWindow window(sf::VideoMode(800, 600), "oui");
+
+    //// Boucle principale
+    //while (window.isOpen())
+    //{
+    //    // Gérer les événements
+    //    sf::Event event;
+    //    while (window.pollEvent(event))
+    //    {
+    //        // Fermer la fenêtre si l'utilisateur le souhaite
+    //        if (event.type == sf::Event::Closed)
+    //            window.close();
+    //    }
+
+    //    // Effacer la fenêtre
+    //    window.clear(sf::Color::White);
+
+    //    // Afficher la fenêtre
+    //    window.display();
+    //}
 }
+
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
 // Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage
