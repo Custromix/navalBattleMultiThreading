@@ -10,20 +10,76 @@
 int main()
 {
     WSADATA wsaData;
-    int result = WSAStartup(MAKEWORD(2, 2), &wsaData);
-    if (result != 0) {
-        std::cerr << "Erreur lors de l'initialisation de Winsock : " << result << std::endl;
+    if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
+        std::cerr << "WSAStartup a échoué avec l'erreur : " << WSAGetLastError() << std::endl;
         return 1;
     }
+
+    // Créer un socket pour le serveur
+    SOCKET serverSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    if (serverSocket == INVALID_SOCKET) {
+        std::cerr << "Erreur de création du socket : " << WSAGetLastError() << std::endl;
+        WSACleanup();
+        return 1;
+    }
+
+    // Lier le socket à une adresse IP et un port
+    sockaddr_in serverAddr;
+    serverAddr.sin_family = AF_INET;
+    serverAddr.sin_port = htons(27523);
+    serverAddr.sin_addr.s_addr = INADDR_ANY;
+
+    if (bind(serverSocket, (SOCKADDR*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
+        std::cerr << "Erreur lors de la liaison du socket : " << WSAGetLastError() << std::endl;
+        closesocket(serverSocket);
+        WSACleanup();
+        return 1;
+    }
+
+    // Mettre le socket en mode écoute
+    if (listen(serverSocket, SOMAXCONN) == SOCKET_ERROR) {
+        std::cerr << "Erreur lors de la mise en mode écoute du socket : " << WSAGetLastError() << std::endl;
+        closesocket(serverSocket);
+        WSACleanup();
+        return 1;
+    }
+    else {
+        std::cout << "Le serveur est à l'écoute sur le port : " << serverAddr.sin_port << std::endl;
+
+    }
+
+
+    // Attendre une connexion entrante
+    SOCKET clientSocket;
+    sockaddr_in clientAddr;
+    int clientAddrSize = sizeof(clientAddr);
+
+    if ((clientSocket = accept(serverSocket, (SOCKADDR*)&clientAddr, &clientAddrSize)) == INVALID_SOCKET) {
+        std::cerr << "Erreur lors de la connexion entrante : " << WSAGetLastError() << std::endl;
+        closesocket(serverSocket);
+        WSACleanup();
+        return 1;
+    }
+    else {
+        std::cout << "Client connecté" << std::endl;
+    }
+
+
+    // Recevoir les données envoyées par le client
+    //char buffer[1024];
+    std::string buffer;
+    int bytesReceived = 0;
+
+    while ((bytesReceived = recv(clientSocket, &buffer[0], buffer.size(), 0)) > 0) {
+        std::cout << "Données reçues : " << buffer << std::endl;
+    }
+
+    if (bytesReceived == SOCKET_ERROR) {
+        std::cerr << "Erreur lors de la réception des données : " << WSAGetLastError() << std::endl;
+    }
+
+    closesocket(clientSocket);
+    WSACleanup();
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

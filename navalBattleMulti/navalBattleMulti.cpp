@@ -37,7 +37,7 @@ int main()
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
 
-    int status = getaddrinfo("www.google.com", "80", &hints, &result);
+    int status = getaddrinfo("127.0.0.1", "257523", &hints, &result);
     if (status != 0) {
         std::cerr << "Impossible de résoudre l'adresse IP du serveur : " << gai_strerror(status) << std::endl;
         closesocket(clientSocket);
@@ -49,7 +49,7 @@ int main()
     SOCKADDR_IN serverAddr;
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_addr.s_addr = ((struct sockaddr_in*)result->ai_addr)->sin_addr.s_addr;
-    serverAddr.sin_port = htons(80);
+    serverAddr.sin_port = htons(27523);
 
     freeaddrinfo(result);
 
@@ -60,7 +60,7 @@ int main()
         WSACleanup();
         return 1;
     }
-
+/*
     // Envoyer la requête HTTP
     const char* httpRequest = "GET / HTTP/1.1\r\nHost: www.google.com\r\nConnection: close\r\n\r\n";
     if (send(clientSocket, httpRequest, strlen(httpRequest), 0) == SOCKET_ERROR) {
@@ -82,7 +82,7 @@ int main()
 
     // Afficher la réponse HTTP
     std::cout << response << std::endl;
-
+    */
     // Fermer le socket et libérer les ressources Winsock
     closesocket(clientSocket);
     WSACleanup();
