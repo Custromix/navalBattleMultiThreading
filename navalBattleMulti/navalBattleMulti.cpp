@@ -1,14 +1,7 @@
 // navalBattleMulti.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
 
-#include <Ws2tcpip.h>
-#include <winsock2.h> 
-#include <windows.h>
-#include <wininet.h>
-#include <iostream>
-
-#pragma comment(lib, "Ws2_32.lib") // linker la bibliothèque Ws2_32.lib
-
+#include "Includes.h"
 
 int sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -37,7 +30,7 @@ int main()
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
 
-    int status = getaddrinfo("www.google.com", "80", &hints, &result);
+    int status = getaddrinfo("10.1.170.31", "27523", &hints, &result);
     if (status != 0) {
         std::cerr << "Impossible de résoudre l'adresse IP du serveur : " << gai_strerror(status) << std::endl;
         closesocket(clientSocket);
@@ -49,7 +42,7 @@ int main()
     SOCKADDR_IN serverAddr;
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_addr.s_addr = ((struct sockaddr_in*)result->ai_addr)->sin_addr.s_addr;
-    serverAddr.sin_port = htons(80);
+    serverAddr.sin_port = htons(27523);
 
     freeaddrinfo(result);
 
@@ -61,6 +54,14 @@ int main()
         return 1;
     }
 
+    const char* message = "Wesh kader il a dit c'était le plus gros violuer de france!\n";
+    // Send message to server
+    if (send(clientSocket, message, strlen(message), 0) < 0) {
+        std::cerr << "Could not send data: " << WSAGetLastError() << std::endl;
+        return 1;
+    }
+
+    /*
     // Envoyer la requête HTTP
     const char* httpRequest = "GET / HTTP/1.1\r\nHost: www.google.com\r\nConnection: close\r\n\r\n";
     if (send(clientSocket, httpRequest, strlen(httpRequest), 0) == SOCKET_ERROR) {
@@ -82,7 +83,7 @@ int main()
 
     // Afficher la réponse HTTP
     std::cout << response << std::endl;
-
+    */
     // Fermer le socket et libérer les ressources Winsock
     closesocket(clientSocket);
     WSACleanup();
@@ -98,16 +99,3 @@ int main()
 
 
 
-
-
-
-// Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
-// Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage
-
-// Astuces pour bien démarrer : 
-//   1. Utilisez la fenêtre Explorateur de solutions pour ajouter des fichiers et les gérer.
-//   2. Utilisez la fenêtre Team Explorer pour vous connecter au contrôle de code source.
-//   3. Utilisez la fenêtre Sortie pour voir la sortie de la génération et d'autres messages.
-//   4. Utilisez la fenêtre Liste d'erreurs pour voir les erreurs.
-//   5. Accédez à Projet > Ajouter un nouvel élément pour créer des fichiers de code, ou à Projet > Ajouter un élément existant pour ajouter des fichiers de code existants au projet.
-//   6. Pour rouvrir ce projet plus tard, accédez à Fichier > Ouvrir > Projet et sélectionnez le fichier .sln.
