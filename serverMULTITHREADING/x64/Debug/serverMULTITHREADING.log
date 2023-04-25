@@ -1,0 +1,22 @@
+﻿  Client.cpp
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Server.cpp
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.cpp(123,76): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+D:\Programmes\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory(2074,18): error C2064: le terme ne correspond pas à une fonction qui prend 1 arguments
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.cpp(54,104): message : voir la référence à l'instanciation de la fonction modèle '_FwdIt std::remove_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl Server::* )(Client *)>(_FwdIt,const _FwdIt,_Pr)' en cours de compilation
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Client *>>>,
+              _Ty=Client *,
+              _Pr=bool (__cdecl Server::* )(Client *)
+          ]
+  serverMULTITHREADING.cpp
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Utils.cpp
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Génération de code en cours...
