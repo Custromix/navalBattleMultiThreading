@@ -36,7 +36,7 @@ Scene::Scene(sf::RenderWindow* window)
 {
 	m_window = window;
 	Ship ship;
-	ship.size = 5; 
+	ship.size = 5;
 }
 
 Scene::~Scene()
@@ -47,7 +47,7 @@ Scene::~Scene()
 
 void Scene::Start()
 {
-    m_isPlaying = true;
+	m_isPlaying = true;
 }
 
 void Scene::Update()
@@ -70,10 +70,11 @@ void Scene::Render()
 
 bool Scene::IsPlaying()
 {
-    return m_isPlaying;
+	return m_isPlaying;
 }
 
 void Scene::SetPlaying(bool flag)
 {
 	m_isPlaying = flag;
 }
+

@@ -11,7 +11,8 @@ App::~App()
 
 void App::Init()
 {
-	m_window = new RenderWindow(VideoMode(900, 600), "Bataille navale");
+    //m_window = new RenderWindow(VideoMode(900, 600), "Bataille navale");
+	win.create(sf::VideoMode(1024,610),"SFML GameDev");
 	m_state = PLAY;
 	CreateScene();
 }
@@ -27,12 +28,12 @@ void App::PrintDebug(String textDebug)
 
 void App::DrawDebug()
 {
-    m_window->draw(m_debugText);
+   // m_window->draw(m_debugText);
 }
 
 void App::CreateScene()
 {
-    m_scene = new Scene(m_window);
+   // m_scene = new Scene(m_window);
 	m_scene->SetPlaying(true);
 }
 
@@ -68,29 +69,44 @@ Scene* App::GetScene()
 
 void App::Start()
 {
-    while (m_window->isOpen())
-    {
-        Event event;
-        while (m_window->pollEvent(event))
-        {
-            if (event.type == Event::Closed)
-            {
-                m_window->close();
-            }
-        }
+	std::srand(time(NULL));
+	Board board;
+	computerBoard computer;
+	board.init();
 
-        if (m_scene->IsPlaying())
-        {
-            if (UpdateTime())
-            {
-                m_scene->Update();
-                m_scene->Render();
-            }
-        }
-        else
-        {
-            m_window->close();
-        }
+	Boat boat;
+	boat.initialize();
 
-    }
+	Game game;
+
+	board.addSensorsToGrid();
+	computer.addSensorsToGrid();
+
+	while (win.isOpen()) {
+		sf::Event event;
+		while (win.pollEvent(event))
+		{
+			if (event.type == event.KeyPressed)
+			{
+				if (event.key.code == sf::Keyboard::Escape)
+					win.close();
+			}
+
+			if (event.type == sf::Event::Closed)
+				win.close();
+		}
+
+		win.clear(sf::Color::White);
+		board.draw(win);
+		board.updateEvent(win, event, boat);
+		if (game.check(board)) { game.start(win, board, boat, computer); }
+		board.detectBoatOnGrid(boat);
+		// computer.addBoxToSquare(win);
+		// board.addBoxToSquare(win);
+		computer.readGridInfo(win, boat);
+		boat.draw(win);
+		board.readUserGridInfo(win, boat);
+		board.drawText(win);
+		win.display();
+	}
 }
