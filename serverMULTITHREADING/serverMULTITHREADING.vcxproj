@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CResult.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="serverMULTITHREADING.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Client.h" />
+    <ClInclude Include="CResult.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
