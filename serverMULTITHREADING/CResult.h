@@ -14,8 +14,11 @@ public:
 	CResult(bool status, T* value);
 	~CResult();
 
-	bool GetStatus()	{ return status_; }
-	T* GetValue()		{ return value_; }
+	bool GetStatus()											{ return status_; }
+	T* GetValue()												{ return value_; }
+
+	void SetSatue(bool statue)									{ status_ = statue; }
+	void SetValue(int value)									{ value_ = &value; }
 	
 };
 

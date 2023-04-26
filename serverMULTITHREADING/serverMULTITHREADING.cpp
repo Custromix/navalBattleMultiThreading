@@ -9,13 +9,15 @@
 int main()
 {
     try {
-        Server* g_server = new Server();
+        Server* g_server = new Server(257523);
+
+        g_server->Listen();
 
     }
     catch (const std::exception& e) {
         // Bloc de code qui sera exécuté en cas d'exception
         // ...
-        std::cerr << "Exception : " << e.what() << std::endl;
+        std::cout << "Exception : " << e.what() << std::endl;
     }
 
 }
