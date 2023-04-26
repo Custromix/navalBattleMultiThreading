@@ -31,6 +31,7 @@ int main()
     hints.ai_protocol = IPPROTO_TCP;
 
     int status = getaddrinfo("10.1.170.31", "27523", &hints, &result);
+
     if (status != 0) {
         std::cerr << "Impossible de résoudre l'adresse IP du serveur : " << gai_strerror(status) << std::endl;
         closesocket(clientSocket);
