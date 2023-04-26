@@ -2,65 +2,38 @@
 //
 
 #include "Includes.h"
+#include "Client.h"
 
-int sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
 
 int main()
 {
-    // Initialiser Winsock
-    WSADATA wsaData;
-    if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
-        std::cerr << "WSAStartup a échoué avec l'erreur : " << WSAGetLastError() << std::endl;
-        return 1;
+
+    try {
+        
+        Client* player = new Client();
+        player->Connect("10.1.170.31", "257523");
+
+
     }
-
-    // Créer un socket
-    SOCKET clientSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-    if (clientSocket == INVALID_SOCKET) {
-        std::cerr << "Erreur de création du socket : " << WSAGetLastError() << std::endl;
-        WSACleanup();
-        return 1;
+    catch (const std::exception& e) {
+        // Bloc de code qui sera exécuté en cas d'exception
+        // ...
+        std::cout << "Exception : " << e.what() << std::endl;
     }
+}
 
-    struct addrinfo* result = NULL;
-    struct addrinfo hints;
-    ZeroMemory(&hints, sizeof(hints));
-    hints.ai_family = AF_INET;
-    hints.ai_socktype = SOCK_STREAM;
-    hints.ai_protocol = IPPROTO_TCP;
 
-    int status = getaddrinfo("10.1.170.31", "27523", &hints, &result);
 
-    if (status != 0) {
-        std::cerr << "Impossible de résoudre l'adresse IP du serveur : " << gai_strerror(status) << std::endl;
-        closesocket(clientSocket);
-        WSACleanup();
-        return 1;
-    }
+
+
+
+
+
+
 
     // Spécifier l'adresse du serveur
-    SOCKADDR_IN serverAddr;
-    serverAddr.sin_family = AF_INET;
-    serverAddr.sin_addr.s_addr = ((struct sockaddr_in*)result->ai_addr)->sin_addr.s_addr;
-    serverAddr.sin_port = htons(27523);
 
-    freeaddrinfo(result);
-
-    // Se connecter au serveur
-    if (connect(clientSocket, (SOCKADDR*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-        std::cerr << "Impossible de se connecter au serveur : " << WSAGetLastError() << std::endl;
-        closesocket(clientSocket);
-        WSACleanup();
-        return 1;
-    }
-
-    const char* message = "Wesh kader il a dit c'était le plus gros violuer de france!\n";
-    // Send message to server
-    if (send(clientSocket, message, strlen(message), 0) < 0) {
-        std::cerr << "Could not send data: " << WSAGetLastError() << std::endl;
-        return 1;
-    }
 
     /*
     // Envoyer la requête HTTP
@@ -86,17 +59,3 @@ int main()
     std::cout << response << std::endl;
     */
     // Fermer le socket et libérer les ressources Winsock
-    closesocket(clientSocket);
-    WSACleanup();
-
-    return 0;
-}
-
-
-
-
-
-
-
-
-
