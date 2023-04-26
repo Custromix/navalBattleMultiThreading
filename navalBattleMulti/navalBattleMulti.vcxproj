@@ -160,6 +160,7 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="board.cpp" />
     <ClCompile Include="boat.cpp" />
+    <ClCompile Include="Client.cpp" />
     <ClCompile Include="computer.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="navalBattleMulti.cpp" />
@@ -170,6 +171,7 @@
     <ClInclude Include="App.h" />
     <ClInclude Include="board.h" />
     <ClInclude Include="boat.h" />
+    <ClInclude Include="Client.h" />
     <ClInclude Include="computer.h" />
     <ClInclude Include="Framework.h" />
     <ClInclude Include="game.h" />
