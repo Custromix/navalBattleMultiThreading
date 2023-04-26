@@ -1,2 +1,132 @@
-﻿  Client.cpp
-  navalBattleMulti.vcxproj -> C:\Users\bnugier\Documents\GitHub\navalBattleMultiThreading\Debug\navalBattleMulti.exe
+﻿  navalBattleMulti.cpp
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\navalBattleMulti.cpp(1,1): error C2059: syntax error: '.'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\Config.hpp(207,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\Config.hpp(207,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(70,11): error C3646: 'asMilliseconds': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(70,25): error C2059: syntax error: '('
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(70,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(80,11): error C3646: 'asMicroseconds': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(80,25): error C2059: syntax error: '('
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(80,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(90,46): error C2061: syntax error: identifier 'Int32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(91,46): error C2061: syntax error: identifier 'Int64'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(102,19): error C2061: syntax error: identifier 'Int64'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(102,5): error C2535: 'sf::Time::Time(void)': member function already defined or declared
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(50,5): message : see declaration of 'sf::Time::Time'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(109,11): error C3646: 'm_microseconds': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(109,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(136,22): error C2365: 'sf::milliseconds': redefinition; previous definition was 'function'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(90,33): message : see declaration of 'sf::milliseconds'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(136,35): error C2065: 'Int32': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(136,41): error C2146: syntax error: missing ')' before identifier 'amount'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(149,22): error C2365: 'sf::microseconds': redefinition; previous definition was 'function'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(91,33): message : see declaration of 'sf::microseconds'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(149,35): error C2065: 'Int64': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(149,41): error C2146: syntax error: missing ')' before identifier 'amount'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(304,44): error C2061: syntax error: identifier 'Int64'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(328,39): error C2473: 'operator *': looks like a function definition, but there is no parameter list.
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(328,22): error C2365: 'sf::operator *': redefinition; previous definition was 'function'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(328,33): error C2065: 'Int64': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(328,39): error C2146: syntax error: missing ')' before identifier 'left'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(352,47): error C2061: syntax error: identifier 'Int64'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(352,59): error C2805: binary 'operator *=' has too few parameters
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(376,44): error C2061: syntax error: identifier 'Int64'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(376,56): error C2805: binary 'operator /' has too few parameters
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(400,47): error C2061: syntax error: identifier 'Int64'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Time.hpp(400,59): error C2805: binary 'operator /=' has too few parameters
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(63,19): error C3646: 'read': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(63,24): error C2062: type 'void' unexpected
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(63,51): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(73,19): error C3646: 'seek': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(73,24): error C2065: 'Int64': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(73,30): error C2146: syntax error: missing ')' before identifier 'position'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(73,43): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(81,19): error C3646: 'tell': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(81,24): error C2059: syntax error: ')'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(81,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(90,9): error C3646: 'getSize': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(90,17): error C2059: syntax error: ')'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\InputStream.hpp(90,22): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(92,19): error C3646: 'read': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(92,24): error C2062: type 'void' unexpected
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(92,47): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(102,19): error C3646: 'seek': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(102,24): error C2065: 'Int64': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(102,30): error C2146: syntax error: missing ')' before identifier 'position'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(102,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(110,19): error C3646: 'tell': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(110,24): error C2059: syntax error: ')'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(110,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(118,19): error C3646: 'getSize': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(118,27): error C2059: syntax error: ')'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\FileInputStream.hpp(118,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(74,19): error C3646: 'read': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(74,24): error C2062: type 'void' unexpected
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(74,47): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(84,19): error C3646: 'seek': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(84,24): error C2065: 'Int64': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(84,30): error C2146: syntax error: missing ')' before identifier 'position'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(84,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(92,19): error C3646: 'tell': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(92,24): error C2059: syntax error: ')'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(92,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(100,19): error C3646: 'getSize': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(100,27): error C2059: syntax error: ')'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(100,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(108,17): error C3646: 'm_size': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(108,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(109,17): error C3646: 'm_offset': unknown override specifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp(109,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,40): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(83,23): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(274,40): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(290,23): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(482,40): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(499,23): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(678,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(678,19): error C2061: syntax error: identifier 'decodeAnsi'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(678,5): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(693,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(693,19): error C2061: syntax error: identifier 'decodeWide'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(693,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(711,27): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(728,27): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(39,37): error C2061: syntax error: identifier 'Uint32'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(53,18): error C2760: syntax error: 'Uint32' was unexpected here; expected 'type specifier'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(53,25): error C2065: 'offsets': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(59,46): error C2065: 'Uint8': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(59,46): error C2760: syntax error: 'Uint8' was unexpected here; expected 'type specifier'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(59,60): error C2760: syntax error: ']' was unexpected here; expected ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(59,60): error C3878: syntax error: unexpected token ']' following 'expression_statement'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(59,60): message : error recovery skipped: ']'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(62,9): error C2065: 'output': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,21): error C2065: 'output': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,43): error C2065: 'Uint8': undeclared identifier
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,43): error C2760: syntax error: 'Uint8' was unexpected here; expected 'type specifier'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,48): error C3878: syntax error: unexpected token '>' following 'expression'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,48): message : error recovery skipped: '> ( *  . . . ++'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,58): error C2760: syntax error: ')' was unexpected here; expected ';'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,58): error C3878: syntax error: unexpected token ')' following 'expression_statement'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,58): error C3878: syntax error: unexpected token ')' following 'statement'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,58): error C3878: syntax error: unexpected token ')' following 'labeled_statement'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.hpp(67,15): message : This diagnostic occurred in the compiler generated function 'In sf::Utf<8>::decode(In,In)'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(65,58): error C3878: syntax error: unexpected token ')' following 'statement_seq'
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include\SFML\System\Utf.inl(82,1): fatal  error C1003: error count exceeds 100; stopping compilation
+  Socket.cpp
+  Generating Code...

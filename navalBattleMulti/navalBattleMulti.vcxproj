@@ -128,7 +128,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>SFML_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,7 +145,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\SFML\SFML-2.5.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -157,11 +157,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="boat.cpp" />
+    <ClCompile Include="computer.cpp" />
+    <ClCompile Include="game.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="navalBattleMulti.cpp" />
     <ClCompile Include="Socket.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="board.h" />
+    <ClInclude Include="boat.h" />
+    <ClInclude Include="computer.h" />
+    <ClInclude Include="Framework.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Utils.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="Includes.h" />
     <ClInclude Include="Socket.h" />
