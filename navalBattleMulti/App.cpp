@@ -33,7 +33,7 @@ void App::DrawDebug()
 
 void App::CreateScene()
 {
-   // m_scene = new Scene(m_window);
+    m_scene = new Scene(&win);
 	m_scene->SetPlaying(true);
 }
 
