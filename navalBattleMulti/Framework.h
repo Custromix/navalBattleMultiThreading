@@ -23,8 +23,6 @@ using namespace std;
 
 
 #include "Scene.h"
-
-
 #include "App.h"
 #include "Utils.h"
 #include "computer.h"
