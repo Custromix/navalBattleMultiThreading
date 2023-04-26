@@ -1,1 +1,8 @@
-﻿  navalBattleMulti.vcxproj -> D:\Professional\Other\navalBattleMultiThreading\x64\Debug\navalBattleMulti.exe
+﻿  Client.cpp
+C:\Users\bnugier\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\Client.h(19,28): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\bnugier\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\Client.cpp(55,8): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\bnugier\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\Client.cpp(68,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  navalBattleMulti.cpp
+C:\Users\bnugier\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\Client.h(19,28): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+  Generating Code...
+  navalBattleMulti.vcxproj -> C:\Users\bnugier\Documents\GitHub\navalBattleMultiThreading\x64\Debug\navalBattleMulti.exe
