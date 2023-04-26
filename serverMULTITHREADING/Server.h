@@ -9,6 +9,7 @@ private:
 	sockaddr_in serverAddr;
 
 	std::map<std::string, int> command;
+	std::string currentCommand;
 
 public:
 	Server(int port);
