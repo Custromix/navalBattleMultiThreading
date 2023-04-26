@@ -5,10 +5,10 @@
 
 int main()
 {
-    App* BATTLENAVALMUTLI = new App();
+ //   App* BATTLENAVALMUTLI = new App();
 
-    BATTLENAVALMUTLI->Init();
-	BATTLENAVALMUTLI->Start();
+ //   BATTLENAVALMUTLI->Init();
+	//BATTLENAVALMUTLI->Start();
 
 	try
 	{

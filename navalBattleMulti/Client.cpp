@@ -57,7 +57,7 @@ void Client::Connect(PCSTR ip, PCSTR port)
 
     }
     else {
-        std::cerr << "SENDFDDD : " << WSAGetLastError() << std::endl;
+        std::cerr << "SEND : " << message << std::endl;
     }
 
 

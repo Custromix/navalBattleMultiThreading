@@ -12,7 +12,7 @@ private:
 	std::string currentCommand;
 
 public:
-	Server(int port);
+	Server(int port, HWND Window);
 	~Server();
 
 	void InitCommand();
@@ -29,14 +29,20 @@ public:
 
 	std::vector<Client*> GetClients() { return clients; }
 
+	enum ServerStatus
+	{
+		START,
+		STOP
+	};
+
 	ServerStatus statusServ;
 
+	SOCKET clientSocket;
+
+	HWND Window_;
+
 
 };
 
-enum ServerStatus
-{
-	START,
-	STOP
-};
+
 

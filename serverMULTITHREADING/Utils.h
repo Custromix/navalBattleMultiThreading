@@ -1,6 +1,11 @@
 #pragma once
+
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
+
+#include <SFML/Graphics.hpp>
 #include <iostream>
 #include <winsock2.h>
+#include <windows.h>
 #include <vector>
 #include <algorithm>
 #include <map>

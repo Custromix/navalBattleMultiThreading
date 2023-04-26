@@ -1,36 +1,6 @@
-﻿  Client.cpp
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,15): error C3646: 'statusServ' : spécificateur de substitution inconnu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-  CResult.cpp
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,15): error C3646: 'statusServ' : spécificateur de substitution inconnu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-  Server.cpp
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,15): error C3646: 'statusServ' : spécificateur de substitution inconnu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.cpp(5,5): error C2065: 'statusServ' : identificateur non déclaré
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.cpp(47,14): error C2065: 'statusServ' : identificateur non déclaré
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.cpp(130,14): error C2065: 'statusServ' : identificateur non déclaré
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.cpp(142,9): error C2065: 'statusServ' : identificateur non déclaré
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.cpp(215,76): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-  serverMULTITHREADING.cpp
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,15): error C3646: 'statusServ' : spécificateur de substitution inconnu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-  Utils.cpp
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(9,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Utils.h(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,15): error C3646: 'statusServ' : spécificateur de substitution inconnu
-D:\Professional\Other\navalBattleMultiThreading\serverMULTITHREADING\Server.h(31,25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-  Génération de code en cours...
+﻿  serverMULTITHREADING.cpp
+C:\Users\asabi\source\repos\navalBattleMulti\serverMULTITHREADING\Utils.h(13,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\asabi\source\repos\navalBattleMulti\serverMULTITHREADING\Utils.h(14,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\asabi\source\repos\navalBattleMulti\serverMULTITHREADING\Utils.h(15,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\asabi\source\repos\navalBattleMulti\x64\Debug\serverMULTITHREADING.exe : fatal error LNK1120: 1 unresolved externals
