@@ -110,7 +110,6 @@ bool Boat::checkPositionOnGrid(sf::FloatRect& gridSquare)
 			return true;
 		}
 	}
-
 	return false;
 }
 
@@ -131,7 +130,7 @@ void Boat::missed(sf::RenderWindow& window, const int& positionX, const int& pos
 void Boat::filled(sf::RenderWindow& window, const int& positionX, const int& positionY)
 {
 	filledCase.setPosition(positionX, positionY);
-	//	window.draw(filledCase);
+		window.draw(filledCase);
 }
 
 void Boat::destroyed(sf::RenderWindow& window, const int& positionX, const int& positionY)
@@ -142,7 +141,6 @@ void Boat::destroyed(sf::RenderWindow& window, const int& positionX, const int& 
 
 void Boat::draw(sf::RenderWindow& window)
 {
-
 	for (int i = 0; i < boat.size(); i++)
 	{
 		window.draw(boat[i].sprite);

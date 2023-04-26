@@ -278,7 +278,6 @@ void Board::checkRightCase(int& x, int& y, const int& callingMethod)
 
 void  Board::checkUpCase(int& x, int& y, const int& callingMethod)
 {
-
 	if (userGridArray[old_x - N][old_y] == FILLED) {
 		x = old_x - N; y = old_y;
 		axe = UP;
@@ -324,19 +323,21 @@ bool Board::checkComputerChoice(int& x, int& y)
 	if (touched) {
 		if (checkAdjacentCase(x, y)) { touched = false; }
 		else { touched = false; }
+		cout << "Player 2 hit Boat " << userGridArray[x][y] << "\n"; //TODO message serv to client 1
 	}
 
 	if (userGridArray[x][y] == PLAYED)
 	{
 		x = std::rand() % MAX_CASE;
 		y = std::rand() % MAX_CASE;
-		checkComputerChoice(x, y);
+		checkComputerChoice(x, y);		
 	}
 	else if (userGridArray[x][y] == DESTROYED)
 	{
 		x = std::rand() % MAX_CASE;
 		y = std::rand() % MAX_CASE;
 		checkComputerChoice(x, y);
+		cout << "Player 2 Boat Destroy \n"; //TODO message serv to client 1 
 	}
 	else if (userGridArray[x][y] == FILLED)
 	{

@@ -1,2 +1,119 @@
-﻿  Scene.cpp
+﻿  board.cpp
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(3,225): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(12,43): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(12,27): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(47,35): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(47,23): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(49,14): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(50,13): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(51,15): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(102,4): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(101,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(102,48): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(102,35): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  boat.cpp
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(52,30): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(68,81): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(68,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(87,81): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(87,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(90,31): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(92,86): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(92,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(94,31): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(101,79): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(101,48): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(126,36): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(126,25): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(132,36): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(132,25): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(138,35): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(138,24): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Generating Code...
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\boat.cpp(122): warning C4715: 'Boat::getBoatPosition': not all control paths return a value
+C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\navalBattleMulti\board.cpp(353): warning C4715: 'Board::checkComputerChoice': not all control paths return a value
   navalBattleMulti.vcxproj -> C:\Users\amagnin\Documents\GitHub\navalBattleMultiThreading\x64\Debug\navalBattleMulti.exe
