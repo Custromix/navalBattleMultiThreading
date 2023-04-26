@@ -1,6 +1,2 @@
-﻿  Server.cpp
-C:\Users\asabi\source\repos\navalBattleMulti\serverMULTITHREADING\Utils.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\asabi\source\repos\navalBattleMulti\serverMULTITHREADING\Utils.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\asabi\source\repos\navalBattleMulti\serverMULTITHREADING\Utils.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\asabi\source\repos\navalBattleMulti\serverMULTITHREADING\Server.cpp(101,23): warning C4018: '<': signed/unsigned mismatch
+﻿  serverMULTITHREADING.cpp
   serverMULTITHREADING.vcxproj -> C:\Users\asabi\source\repos\navalBattleMulti\Debug\serverMULTITHREADING.exe

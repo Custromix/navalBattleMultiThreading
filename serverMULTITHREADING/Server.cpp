@@ -42,18 +42,7 @@ void Server::Start()
 {
     do{
 
-        SOCKET clientSocket;
-        sockaddr_in clientAddr;
-        int clientAddrSize = sizeof(clientAddr);
-
-        if ((clientSocket = accept(serverSocket, (SOCKADDR*)&clientAddr, &clientAddrSize)) == INVALID_SOCKET) {
-            std::cerr << "Erreur lors de la connexion entrante : " << WSAGetLastError() << std::endl;
-            closesocket(serverSocket);
-            WSACleanup();
-        }
-        else {
-            std::cout << "Client connecté" << std::endl;
-        }
+        std::cout << "caca";
 
     } while (statusServ != STOP);
 }
