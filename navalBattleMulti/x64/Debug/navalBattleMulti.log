@@ -1,3 +1,1 @@
-﻿  navalBattleMulti.cpp
-C:\Users\asabi\source\repos\navalBattleMulti\navalBattleMulti\Client.h(19,28): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
-  navalBattleMulti.vcxproj -> C:\Users\asabi\source\repos\navalBattleMulti\x64\Debug\navalBattleMulti.exe
+﻿  navalBattleMulti.vcxproj -> C:\Users\asabi\source\repos\navalBattleMulti\x64\Debug\navalBattleMulti.exe
