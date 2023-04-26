@@ -27,7 +27,7 @@ void Client::Connect(PCSTR ip, PCSTR port)
     hints.ai_protocol = IPPROTO_TCP;
 
 
-    status = getaddrinfo("10.1.170.31", "27523", &hints, &result);
+    status = getaddrinfo(ip, port, &hints, &result);
 
     if (status != 0) {
         std::cerr << "Impossible de résoudre l'adresse IP du serveur : " << gai_strerror(status) << std::endl;
@@ -51,6 +51,7 @@ void Client::Connect(PCSTR ip, PCSTR port)
         WSACleanup();
     }
 
+    message = "Wesh kader il a dit c'était le plus gros mangeur de france!\n";
     // Send message to server
     if (send(clientSocket, message, strlen(message), 0) < 0) {
         std::cerr << "Could not send data: " << WSAGetLastError() << std::endl;
@@ -60,4 +61,17 @@ void Client::Connect(PCSTR ip, PCSTR port)
         std::cerr << "SENDFDDD : " << WSAGetLastError() << std::endl;
 
     }
+
+
+    std::string buffer(1024, 0); // créer un string avec 1024 caractères initialisés à 0
+    int bytesReceived = 0;
+
+    while ((bytesReceived = recv(clientSocket, &buffer[0], buffer.size(), 0)) > 0) {
+        std::cout << "Données reçues : " << buffer.substr(0, bytesReceived) << std::endl;
+    }
+}
+
+void Client::StartServer()
+{
+
 }

@@ -12,7 +12,7 @@ int main()
     try {
         
         Client* player = new Client();
-        player->Connect("10.1.170.31", "257523");
+        player->Connect("10.1.170.31", "27523");
 
 
     }

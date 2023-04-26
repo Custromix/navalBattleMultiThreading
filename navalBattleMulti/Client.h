@@ -4,6 +4,7 @@ class Client
     public:
         Client();
         void Connect(PCSTR ip, PCSTR port);
+        void StartServer();
 
         WSADATA wsaData;
         SOCKET clientSocket;
@@ -12,7 +13,7 @@ class Client
         SOCKADDR_IN serverAddr;
 
 
-        const char* message = "Wesh kader il a dit c'était le plus gros mangeur de france!\n";
+        const char* message;
 
         int sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
