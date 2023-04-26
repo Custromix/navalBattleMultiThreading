@@ -86,8 +86,7 @@ public:
     /// \return The total number of bytes available in the stream, or -1 on error
     ///
     ////////////////////////////////////////////////////////////
-    virtual Int64 
-        getSize() = 0;
+    virtual Int64 getSize() = 0;
 };
 
 } // namespace sf

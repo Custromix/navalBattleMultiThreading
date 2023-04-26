@@ -1,19 +1,15 @@
-.// navalBattleMulti.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
+// navalBattleMulti.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
+//
 
-
-#include "Framework.h"
 #include "Includes.h"
 #include "Client.h"
 
+
+
 int main()
 {
-    App* BATTLENAVALMUTLI = new App();
 
-    SetApp(BATTLENAVALMUTLI);
-
-    BATTLENAVALMUTLI->Init();
-    BATTLENAVALMUTLI->Start();
-      try {
+    try {
         
         Client* player = new Client();
         player->Connect("10.1.170.31", "27523");
@@ -25,8 +21,16 @@ int main()
         // ...
         std::cout << "Exception : " << e.what() << std::endl;
     }
-    return 0;
 }
+
+
+
+
+
+
+
+
+
 
     // Spécifier l'adresse du serveur
 

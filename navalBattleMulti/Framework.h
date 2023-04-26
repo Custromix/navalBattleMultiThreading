@@ -15,26 +15,18 @@
 #include <tchar.h>
 #include <iostream>
 #include <timeapi.h>
-#include <vector>
-#include <array>
 
 using namespace sf;
 using namespace std;
 
-
 #include "Scene.h"
 
+//#include "TronSFML.h"
+//#include "player.h"
+#include "Scene.h"
 
 #include "App.h"
 #include "Utils.h"
-#include "computer.h"
-#include "board.h"
-#include "boat.h"
-#include "game.h"
-
-
-
-
 
 
 

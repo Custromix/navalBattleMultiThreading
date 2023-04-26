@@ -27,7 +27,7 @@ public:
 
 private:
 	Scene* m_scene;
-	sf::RenderWindow win;
+	RenderWindow* m_window;
 	DWORD m_sysTime;
 	Text m_debugText;
 	Font m_font;
