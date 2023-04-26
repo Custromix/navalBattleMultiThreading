@@ -9,3 +9,5 @@
 #include <string.h>
 
 #pragma comment(lib, "Ws2_32.lib") // linker la bibliothèque Ws2_32.lib
+
+#include "Client.h"

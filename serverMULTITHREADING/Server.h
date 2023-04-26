@@ -29,16 +29,14 @@ public:
 
 	std::vector<Client*> GetClients() { return clients; }
 
-	enum ServerStatus
-	{
-		START,
-		STOP
-	};
-
 	ServerStatus statusServ;
 
 
 };
 
-
+enum ServerStatus
+{
+	START,
+	STOP
+};
 

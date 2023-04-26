@@ -1,5 +1,4 @@
 #include "Includes.h"
-#include "Client.h"
 
 Client::Client()
 {
