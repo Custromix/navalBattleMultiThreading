@@ -102,3 +102,4 @@ x64/Debug/navalBattleMulti.pdb
 .vs/navalBattleMulti/v17/Browse.VC.db
 .vs/navalBattleMulti/v17/Solution.VC.db
 .vs/navalBattleMulti/v17/Solution.VC.db-shm
+*.vsidx
