@@ -1,5 +1,7 @@
 // navalBattleMulti.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
-//
+
+#include "Framework.h"
+
 
 #include <Ws2tcpip.h>
 #include <winsock2.h> 
@@ -15,12 +17,19 @@ int sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
 int main()
 {
+    
+    /*App* BATTLENAVALMUTLI = new App();
+
+    BATTLENAVALMUTLI->Init();
+    BATTLENAVALMUTLI->Start();*/
+
     // Initialiser Winsock
     WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
         std::cerr << "WSAStartup a échoué avec l'erreur : " << WSAGetLastError() << std::endl;
         return 1;
     }
+
 
     // Créer un socket
     SOCKET clientSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
