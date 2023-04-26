@@ -321,9 +321,15 @@ void Board::checkDownCase(int& x, int& y, const int& callingMethod)
 bool Board::checkComputerChoice(int& x, int& y)
 {
 	if (touched) {
+		cout << "Player 2 touched " << fx << " " << fy << "\n"; //TODO message serv to client 1 
 		if (checkAdjacentCase(x, y)) { touched = false; }
-		else { touched = false; }
-		cout << "Player 2 hit Boat " << userGridArray[x][y] << "\n"; //TODO message serv to client 1
+		else {
+			touched = false;
+		}
+	}
+	else
+	{
+		cout << "Player 2 miss " << fx << " " << fy << "\n"; //TODO message serv to client 1 
 	}
 
 	if (userGridArray[x][y] == PLAYED)

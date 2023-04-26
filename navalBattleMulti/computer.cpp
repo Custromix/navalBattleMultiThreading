@@ -156,7 +156,6 @@ bool computerBoard::checkCase(const int& startPosition, const int& orientation, 
 
 void computerBoard::checkBoatLength(const int& startCase, const int& orientation, const int& length)
 {
-
 	// THE BOAT CAN BE LOCATED ON THE HORIZONTAL POSITION
 	if (computerBoatOrientation == HORIZONTAL) {
 		if (computerStartPosition + length >= MAX_CASE)
@@ -223,6 +222,7 @@ bool computerBoard::gridEvent(sf::RenderWindow& win)
 			{
 				isPressed = true;
 				hitBoat(i, FILLED);
+				cout << "Player 1  attack: " << cx << " " << cy << "\n"; //TODO Client 1 to serv
 				//computerGridSquare[i].width = 0;
 			//computerGridSquare[i].height = 0;	
 				return true;
@@ -234,7 +234,6 @@ bool computerBoard::gridEvent(sf::RenderWindow& win)
 		}
 	}
 	return false;
-
 }
 
 bool computerBoard::returnHitInformation()
@@ -262,6 +261,14 @@ bool computerBoard::hitBoat(int& idx, const int& status)
 	if (computerGridArray[cx][cy] == EMPTY) {
 		computerGridArray[cx][cy] = MISSED;
 		touched = false;
+	}
+	if (touched == false)
+	{
+		cout << "Player 1 miss \n" ; //TODO serv to client 2
+	}
+	else
+	{
+		cout << "Player 1 touched \n";  //TODO serv to client 2
 	}
 	return touched;
 }
